@@ -1,0 +1,66 @@
+#include <iostream>
+#include<string>
+ 
+ using namespace std;
+ 
+int main() {
+   
+    cout << "hello\n";
+    cout << "I am learing  and c++\n";
+    
+    cout << "Declaring (Creating) Variables  c++\n";
+    
+    cout << "This is interger: \n";
+    int mynum=15;
+    mynum=10;
+    cout << mynum;
+    
+    cout << "\nthis is a charater:\n";
+    
+    char myletter='U';
+    cout << myletter;
+    
+       cout << "\nThis is a float value:\n";
+       
+    float myfloatnum=8.99;
+    cout << myfloatnum;
+   
+   cout << "\nThis is a string :\n";
+   
+   string mytext="Umesh";
+   cout << mytext;
+   
+   cout << "\nThis is a boolean :\n";
+   
+   bool myboolean='true';
+ 
+   cout << myboolean;
+ cout << "\nascii value show :\n";
+
+char a = 65, b = 66, c = 67;
+cout << a;
+cout << b;
+cout << c;
+
+    
+  
+    return 0;
+}
+
+OUTPUT:-
+
+hello
+I am learing  and c++
+Declaring (Creating) Variables  c++
+This is interger: 
+10
+this is a charater:
+U
+This is a float value:
+8.99
+This is a string :
+Umesh
+This is a boolean :
+1
+ascii value show :
+ABC
